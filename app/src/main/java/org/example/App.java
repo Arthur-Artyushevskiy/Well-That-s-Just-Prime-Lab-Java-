@@ -1,7 +1,11 @@
 package org.example;
 
+import java.util.ArrayList;
+
 public class App {
   public static void main(String[] args) {
-    // Test your Factorizer class using a driver program here!
+    var app = new Factorizer();
+    ArrayList<Integer> array = app.primeFactors(45360);
+    System.out.println(array);
   }
 }
